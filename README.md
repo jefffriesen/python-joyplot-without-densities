@@ -5,3 +5,5 @@ Most examples of joy plots online use kernel density estimates. This leads to cu
 So here is an Python example that uses a Seaborn facetgrid [like the Seaborn example](https://seaborn.pydata.org/examples/kde_ridgeplot.html) but with a matplotlib `plt.plot` instead of a Seaborn `kdeplot`.
 
 This also includes transforms that allow a nice way to use a CSV format that's easy to fill out.
+
+![Activites over time, as a joyplot](./activities_joyplot.svg)
