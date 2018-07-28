@@ -7,3 +7,5 @@ So here is an Python example that uses a Seaborn facetgrid [like the Seaborn exa
 This also includes transforms that allow a nice way to use a CSV format that's easy to fill out.
 
 ![Activites over time, as a joyplot](./activities_joyplot.svg)
+
+![Screenshot of activities.png](./activities_data_screenshot.png)
