@@ -13,3 +13,23 @@ This does not include a y-axis titles. I titled it "How I spent my time, subject
 ![Screenshot of activities.png](./activities_data_screenshot.png)
 
 Lastly, I know there is a small controversy over the name "joyplot" and the [renaming to Ridgeline plots](https://serialmentor.com/blog/2017/9/15/goodbye-joyplots). I'm not convinced this is the right move. From my understanding, Joy Division named themselves that as a critique, not a celebration. If someone has other information, let me know. In the meantime, we'll see what people settle on in the coming years.
+
+
+## Running Notebook
+If using `conda`, make sure to activate an environment(such as a clone from base)
+```
+conda env list
+conda create --name base_dupe --clone base
+conda activate base_dupe
+conda info
+```
+
+Then install this (https://stackoverflow.com/a/42585283/1884101):
+```
+conda install nb_conda
+```
+
+Then start Jupyter notebook in that conda environment:
+```
+jupyter notebook
+```
